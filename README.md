@@ -37,3 +37,13 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+##Answer
+
+The average time complexity should be $\Theta(nlog(n))$.  The average case is the
+in-between of the worst and best case, and the in-between of n and $n^2$ is $nlog(n)$. 
+
+The best case of insertion sort is when the list is already sorted, and the worst case
+is when it is sorted in reverse order.  Therefore, the average case is one where the 
+elements are randomly sorted, so some are in the correct case.  
+
