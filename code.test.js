@@ -10,6 +10,7 @@ const testSort =
         return JSON.stringify(insertionSortReverse(a1)) ==
             JSON.stringify(a2.sort(function(a, b)
                 { return a - b; }));
+    
     });
 
 jsc.assert(testSort);
